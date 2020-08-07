@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+
+*{
+    font-family: 'Lemonada', cursive;
+}
+.carousel .height-img{
+    height: 110vh;
+}
+
+.personal-data{
+    width: 100%;
+    min-height: 120vh;
+    background-color: rgb(99, 99, 99);
+}
+
+h1 {
+    font-size: 80px;
+}
+
+hr{
+    border-radius: 100%;
+    border-bottom: 10px solid;
+    border-bottom-color: rgb(255, 255, 255);
+}

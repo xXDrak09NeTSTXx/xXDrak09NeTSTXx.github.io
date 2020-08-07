@@ -11,29 +11,76 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
   <!-- My CSS -->
-  <link rel="stylesheet" href="asset/css_1.css">
+  <link rel="stylesheet" href="assets/css_1.css">
   <title>MY CV</title>
 </head>
 
 <body>
 
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <a class="navbar-brand ml-5 text-info" href="#">MY PROFILE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-sm">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link text-info" href="#">Personal Data</a>
+          <a class="nav-link text-info" href="#">Education</a>
+          <a class="nav-link text-info" href="#">Skills Qualification</a>
+          <a class="nav-link text-info" href="#">About Me</a>
+          <a class="nav-link mr-5 text-info" href="#">Contac Me</a>
         </div>
       </div>
     </nav>
+  </header>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/Chrysanthemum.jpg" class="d-block w-100 height-img" alt="assets/img/Chrysanthemum.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/Desert.jpg" class="d-block w-100 height-img" alt="assets/img/Desert.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/Hydrangeas.jpg" class="d-block w-100 height-img" alt="assets/img/Hydrangeas.jpg">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon height-icon" aria-hidden="true"></span>
+      <span class="sr-only height-icon">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon height-icon" aria-hidden="true"></span>
+      <span class="sr-only height-icon">Next</span>
+    </a>
   </div>
+
+
+  <section class="personal-data" id="personal-data">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <h1 class="mt-5 text-light">Personal Data</h1>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Education" id="Education"></section>
+  <section class="Skills-Qualification" id="Skills-Qualification"></section>
+  <section class="About-Me" id="About-Me"></section>
+  <section class="Contac-Me" id="Contac-Me"></section>
+
+
 
 
 
