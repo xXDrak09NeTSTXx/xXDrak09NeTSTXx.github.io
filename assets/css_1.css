@@ -11,6 +11,7 @@
     width: 100%;
     min-height: 120vh;
     background-color: rgb(99, 99, 99);
+    padding: 100px 0;
 }
 
 h1 {
@@ -21,4 +22,61 @@ hr{
     border-radius: 100%;
     border-bottom: 10px solid;
     border-bottom-color: rgb(255, 255, 255);
+}
+
+hr.hr-1{
+  border-radius: 0%;
+  border-bottom: 6px solid;
+  border-color: rgb(255, 255, 255);
+}
+hr.hr-2{
+  border-radius: 0%;
+  border-bottom: 2px solid;
+  border-color: rgb(255, 255, 255);
+}
+
+.text-1, .text-2{
+  font-size: 20px;
+}
+
+.text-2-modify{
+  text-align: center;
+  font-size: 20px;
+}
+.text-1-modify{
+  font-size: 20px;
+}
+.text-1-modify.under-line{
+  text-decoration: underline;
+}
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  h1{
+    text-align: center;
+    font-size: 60px;
+  }
+  .text-2-modify{
+    text-align: start;
+  }
+  .text-1-modify{
+    text-align: start;
+  }
+    
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+  h1{
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .text-1, .text-2{
+    font-size: 18px;
+    text-align: start;
+  }
+  
 }
